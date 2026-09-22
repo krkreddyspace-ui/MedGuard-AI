@@ -1,0 +1,202 @@
+[
+  {
+    "drug_a": "aspirin",
+    "drug_b": "ibuprofen",
+    "severity": "high",
+    "mechanism": "Competitive inhibition of platelet COX-1; additive gastric mucosal irritation.",
+    "plain_language": "Taking aspirin and ibuprofen together can significantly increase the risk of stomach irritation and gastrointestinal bleeding. Ibuprofen can also reduce the blood-thinning, heart-protective benefit of low-dose aspirin.",
+    "source": "Local curated prototype dataset (Referenced: FDA Drug Safety Communication / BNF 84)"
+  },
+  {
+    "drug_a": "warfarin",
+    "drug_b": "aspirin",
+    "severity": "high",
+    "mechanism": "Combined vitamin K antagonist anticoagulation and irreversible platelet COX-1 inhibition.",
+    "plain_language": "Both medicines thin the blood through different pathways. Taking them together greatly increases the risk of severe or uncontrollable internal bleeding.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / Stockley's Drug Interactions)"
+  },
+  {
+    "drug_a": "sildenafil",
+    "drug_b": "nitroglycerin",
+    "severity": "high",
+    "mechanism": "Synergistic enhancement of cyclic GMP-mediated vascular smooth muscle relaxation.",
+    "plain_language": "Combining these medicines can cause a sudden, severe, and potentially life-threatening drop in blood pressure. They should never be taken together.",
+    "source": "Local curated prototype dataset (Referenced: FDA Package Insert / AHA Guidelines)"
+  },
+  {
+    "drug_a": "sildenafil",
+    "drug_b": "isosorbide dinitrate",
+    "severity": "high",
+    "mechanism": "Nitrate-mediated cyclic GMP augmentation compounded by PDE-5 inhibition.",
+    "plain_language": "Combining erectile dysfunction medication with nitrate heart medicines can cause an extreme, life-threatening drop in blood pressure.",
+    "source": "Local curated prototype dataset (Referenced: FDA Package Insert / AHA Guidelines)"
+  },
+  {
+    "drug_a": "lisinopril",
+    "drug_b": "spironolactone",
+    "severity": "high",
+    "mechanism": "Additive potassium retention via ACE inhibition and aldosterone antagonism.",
+    "plain_language": "Both medicines can cause potassium to build up in your blood. High potassium levels (hyperkalemia) can lead to serious heart rhythm problems.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / Stockley's Drug Interactions)"
+  },
+  {
+    "drug_a": "atorvastatin",
+    "drug_b": "clarithromycin",
+    "severity": "high",
+    "mechanism": "Potent inhibition of CYP3A4 metabolism by clarithromycin, markedly increasing atorvastatin plasma exposure.",
+    "plain_language": "Clarithromycin slows down how your body breaks down atorvastatin, causing statin levels to rise dangerously. This increases the risk of severe muscle breakdown and kidney injury.",
+    "source": "Local curated prototype dataset (Referenced: FDA Drug Safety Communication / Stockley's Drug Interactions)"
+  },
+  {
+    "drug_a": "sertraline",
+    "drug_b": "tramadol",
+    "severity": "high",
+    "mechanism": "Additive serotonin reuptake inhibition increasing central synaptic serotonin concentrations.",
+    "plain_language": "Taking sertraline with tramadol can lead to dangerously high serotonin levels in the brain (serotonin syndrome), causing confusion, tremors, fever, and rapid heart rate.",
+    "source": "Local curated prototype dataset (Referenced: FDA MedWatch / BNF 84)"
+  },
+  {
+    "drug_a": "methotrexate",
+    "drug_b": "naproxen",
+    "severity": "high",
+    "mechanism": "NSAID reduces renal prostaglandin synthesis, impairing renal clearance of methotrexate.",
+    "plain_language": "Naproxen can prevent your kidneys from clearing methotrexate, leading to elevated toxic levels that may suppress bone marrow function and damage blood cells.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / Stockley's Drug Interactions)"
+  },
+  {
+    "drug_a": "metformin",
+    "drug_b": "alcohol",
+    "severity": "high",
+    "mechanism": "Alcohol inhibits hepatic lactate gluconeogenesis, potentiating metformin-induced lactic acidosis.",
+    "plain_language": "Consuming alcohol while on metformin substantially increases the risk of lactic acidosis, a rare but potentially dangerous buildup of acid in the bloodstream.",
+    "source": "Local curated prototype dataset (Referenced: FDA Package Insert / BNF 84)"
+  },
+  {
+    "drug_a": "ciprofloxacin",
+    "drug_b": "antacids",
+    "severity": "moderate",
+    "mechanism": "Chelation of fluoroquinolone with multivalent cations (aluminum/magnesium) preventing intestinal absorption.",
+    "plain_language": "Antacids containing aluminum or magnesium bind to ciprofloxacin in the stomach, preventing the antibiotic from being absorbed into your body and rendering it ineffective against infections.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / Stockley's Drug Interactions)"
+  },
+  {
+    "drug_a": "warfarin",
+    "drug_b": "ibuprofen",
+    "severity": "high",
+    "mechanism": "Additive anticoagulant/antiplatelet effect and NSAID-induced gastric mucosal erosion.",
+    "plain_language": "Ibuprofen irritates the stomach lining and impairs platelets, which drastically elevates the risk of major gastrointestinal bleeding when combined with warfarin.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / Stockley's Drug Interactions)"
+  },
+  {
+    "drug_a": "digoxin",
+    "drug_b": "clarithromycin",
+    "severity": "high",
+    "mechanism": "P-glycoprotein inhibition by clarithromycin increases oral bioavailability and reduces renal excretion of digoxin.",
+    "plain_language": "Clarithromycin can cause digoxin levels in the blood to double, leading to digitalis toxicity which may cause nausea, vision changes, and dangerous cardiac arrhythmias.",
+    "source": "Local curated prototype dataset (Referenced: Stockley's Drug Interactions / BNF 84)"
+  },
+  {
+    "drug_a": "amlodipine",
+    "drug_b": "simvastatin",
+    "severity": "moderate",
+    "mechanism": "Mild CYP3A4 inhibition by amlodipine increases simvastatin peak concentration and AUC.",
+    "plain_language": "Amlodipine increases blood levels of simvastatin, which elevates the risk of muscle ache, weakness, and potential muscle breakdown (myopathy).",
+    "source": "Local curated prototype dataset (Referenced: FDA Drug Safety Communication / BNF 84)"
+  },
+  {
+    "drug_a": "paracetamol",
+    "drug_b": "warfarin",
+    "severity": "moderate",
+    "mechanism": "Possible inhibition of vitamin K-dependent clotting factor synthesis by paracetamol metabolite with regular high-dose intake.",
+    "plain_language": "Frequent or high-dose paracetamol taken regularly over multiple days can enhance the blood-thinning effect of warfarin and increase bleeding risk. Occasional single doses are usually lower risk.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / Stockley's Drug Interactions)"
+  },
+  {
+    "drug_a": "fluconazole",
+    "drug_b": "warfarin",
+    "severity": "high",
+    "mechanism": "Potent CYP2C9 inhibition by fluconazole impairs clearance of the active S-enantiomer of warfarin.",
+    "plain_language": "Fluconazole blocks the breakdown of warfarin, causing blood-thinning levels to surge and creating a very high risk of bruising and severe hemorrhage.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / FDA Package Insert)"
+  },
+  {
+    "drug_a": "fluoxetine",
+    "drug_b": "tramadol",
+    "severity": "high",
+    "mechanism": "CYP2D6 inhibition and synergistic serotonin uptake blockade.",
+    "plain_language": "Combining fluoxetine and tramadol increases the risk of seizures and serotonin syndrome, while also reducing the pain-relieving effect of tramadol.",
+    "source": "Local curated prototype dataset (Referenced: Stockley's Drug Interactions / BNF 84)"
+  },
+  {
+    "drug_a": "omeprazole",
+    "drug_b": "clopidogrel",
+    "severity": "moderate",
+    "mechanism": "Competitive CYP2C19 inhibition prevents biotransformation of clopidogrel to its active antiplatelet metabolite.",
+    "plain_language": "Omeprazole may reduce the effectiveness of clopidogrel at preventing blood clots, potentially increasing the risk of heart attack or stroke in cardiac patients.",
+    "source": "Local curated prototype dataset (Referenced: FDA Safety Warning / BNF 84)"
+  },
+  {
+    "drug_a": "metronidazole",
+    "drug_b": "alcohol",
+    "severity": "high",
+    "mechanism": "Disulfiram-like inhibition of acetaldehyde dehydrogenase causing accumulation of acetaldehyde.",
+    "plain_language": "Drinking alcohol while taking metronidazole can cause severe facial flushing, throbbing headache, nausea, vomiting, sweating, and rapid heartbeat.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / FDA Package Insert)"
+  },
+  {
+    "drug_a": "albuterol",
+    "drug_b": "propranolol",
+    "severity": "high",
+    "mechanism": "Antagonism between beta-2 agonist bronchodilator and non-selective beta-blocker.",
+    "plain_language": "Propranolol blocks the airways and counteracts albuterol, which can trigger severe asthma attacks or life-threatening bronchospasm in patients with respiratory conditions.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / Stockley's Drug Interactions)"
+  },
+  {
+    "drug_a": "azithromycin",
+    "drug_b": "amiodarone",
+    "severity": "high",
+    "mechanism": "Additive prolongation of cardiac ventricular repolarization (QT interval).",
+    "plain_language": "Both medicines can affect the electrical rhythm of the heart. Taking them together significantly increases the risk of dangerous irregular heartbeats (Torsades de pointes).",
+    "source": "Local curated prototype dataset (Referenced: FDA Drug Safety Communication / BNF 84)"
+  },
+  {
+    "drug_a": "ciprofloxacin",
+    "drug_b": "warfarin",
+    "severity": "high",
+    "mechanism": "Inhibition of CYP1A2 and alteration of gut flora synthesis of vitamin K.",
+    "plain_language": "Ciprofloxacin can markedly enhance the anticoagulant effect of warfarin, resulting in elevated INR readings and dangerous bleeding episodes.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / Stockley's Drug Interactions)"
+  },
+  {
+    "drug_a": "spironolactone",
+    "drug_b": "potassium",
+    "severity": "high",
+    "mechanism": "Exogenous potassium supplementation in presence of potassium-sparing diuretic.",
+    "plain_language": "Taking potassium supplements while on spironolactone can cause blood potassium levels to rise dangerously high, creating a risk of fatal heart arrhythmias.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / FDA Package Insert)"
+  },
+  {
+    "drug_a": "ibuprofen",
+    "drug_b": "prednisolone",
+    "severity": "high",
+    "mechanism": "Additive ulcerogenic effect on gastrointestinal mucosa.",
+    "plain_language": "Taking NSAIDs like ibuprofen together with corticosteroids like prednisolone dramatically increases the likelihood of stomach ulcers and serious internal bleeding.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / Stockley's Drug Interactions)"
+  },
+  {
+    "drug_a": "diclofenac",
+    "drug_b": "aspirin",
+    "severity": "high",
+    "mechanism": "Additive cyclooxygenase inhibition with heightened gastrointestinal ulceration risk.",
+    "plain_language": "Taking two NSAID pain relievers together increases the risk of stomach ulcers and kidney strain without providing additional pain relief.",
+    "source": "Local curated prototype dataset (Referenced: BNF 84 / Stockley's Drug Interactions)"
+  },
+  {
+    "drug_a": "phenytoin",
+    "drug_b": "fluconazole",
+    "severity": "high",
+    "mechanism": "Inhibition of CYP2C9 metabolism by fluconazole decreases phenytoin clearance.",
+    "plain_language": "Fluconazole causes phenytoin to accumulate in the bloodstream, increasing the likelihood of toxicity symptoms such as ataxia, dizziness, confusion, and nystagmus.",
+    "source": "Local curated prototype dataset (Referenced: Stockley's Drug Interactions / BNF 84)"
+  }
+]

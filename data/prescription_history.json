@@ -1,0 +1,29 @@
+[
+  {
+    "id": "adf2ed93",
+    "title": "Medicine Pair Check",
+    "date": "Sep 21, 2026",
+    "medicines": [
+      {
+        "recognized": true,
+        "brand_name": "Ecosprin",
+        "generic_name": "aspirin",
+        "confidence": 100.0,
+        "match_type": "exact_brand",
+        "raw_query": "Ecosprin 75 Tablets",
+        "message": "Exact brand match: Ecosprin -> Aspirin"
+      },
+      {
+        "recognized": true,
+        "brand_name": "Combiflam",
+        "generic_name": "ibuprofen",
+        "confidence": 100.0,
+        "match_type": "exact_brand",
+        "raw_query": "Combiflam Pain Relief",
+        "message": "Exact brand match: Combiflam -> Ibuprofen"
+      }
+    ],
+    "active": true,
+    "notes": ""
+  }
+]

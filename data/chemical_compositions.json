@@ -1,0 +1,121 @@
+{
+  "aspirin": {
+    "chemical_name": "Acetylsalicylic acid (C9H8O4)",
+    "chemical_class": "Salicylate NSAID & Irreversible Antiplatelet",
+    "pharmacological_class": "Cyclooxygenase (COX-1 & COX-2) Inhibitor",
+    "target_site": "Platelet COX-1 Serine-529 residue (Irreversible acetylation)",
+    "metabolic_pathway": "Hepatic esterases -> Salicylate -> Renal excretion"
+  },
+  "ibuprofen": {
+    "chemical_name": "2-(4-isobutylphenyl)propanoic acid (C13H18O2)",
+    "chemical_class": "Propionic Acid NSAID",
+    "pharmacological_class": "Reversible Non-Selective COX Inhibitor",
+    "target_site": "COX-1 & COX-2 active enzymatic hydrophobic channel",
+    "metabolic_pathway": "Hepatic CYP2C9 & CYP2C8 oxidation"
+  },
+  "paracetamol": {
+    "chemical_name": "N-(4-hydroxyphenyl)acetamide (C8H9NO2)",
+    "chemical_class": "Aniline Analgesic & Antipyretic",
+    "pharmacological_class": "Central COX-3 Inhibitor & Endocannabinoid Modulator",
+    "target_site": "Central nervous system peroxidase site reduction",
+    "metabolic_pathway": "Hepatic Glucuronidation (60%) & Sulfation (35%)"
+  },
+  "cetirizine": {
+    "chemical_name": "2-[2-[4-[(4-chlorophenyl)-phenylmethyl]piperazin-1-yl]ethoxy]acetic acid (C21H25ClN2O3)",
+    "chemical_class": "Second-Generation Piperazine H1 Antihistamine",
+    "pharmacological_class": "Peripheral H1 Receptor Antagonist",
+    "target_site": "Histamine H1 receptors in peripheral tissues",
+    "metabolic_pathway": "Renal excretion (70% unchanged active drug)"
+  },
+  "warfarin": {
+    "chemical_name": "4-hydroxy-3-(3-oxo-1-phenylbutyl)chromen-2-one (C19H16O4)",
+    "chemical_class": "Coumarin Anticoagulant",
+    "pharmacological_class": "Vitamin K Epoxide Reductase (VKORC1) Inhibitor",
+    "target_site": "Hepatic VKORC1 enzyme complex (Clotting factors II, VII, IX, X)",
+    "metabolic_pathway": "Hepatic CYP2C9 (S-warfarin) & CYP3A4 (R-warfarin)"
+  },
+  "clopidogrel": {
+    "chemical_name": "Methyl 2-(2-chlorophenyl)-2-(6,7-dihydro-4H-thieno[3,2-c]pyridin-5-yl)acetate (C16H16ClNO2S)",
+    "chemical_class": "Thienopyridine Prodrug Antiplatelet",
+    "pharmacological_class": "P2Y12 ADP Receptor Antagonist",
+    "target_site": "Platelet surface P2Y12 purinergic receptors",
+    "metabolic_pathway": "Hepatic bioactivation by CYP2C19 (85% esterase inactivation)"
+  },
+  "omeprazole": {
+    "chemical_name": "5-methoxy-2-[(4-methoxy-3,5-dimethylpyridin-2-yl)methylsulfinyl]-1H-benzimidazole (C17H19N3O3S)",
+    "chemical_class": "Substituted Benzimidazole Proton Pump Inhibitor",
+    "pharmacological_class": "Gastric H+/K+-ATPase Inhibitor",
+    "target_site": "Gastric parietal cell secretory canaliculi proton pump",
+    "metabolic_pathway": "Hepatic CYP2C19 (major) & CYP3A4 (minor)"
+  },
+  "atorvastatin": {
+    "chemical_name": "(3R,5R)-7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid (C33H35FN2O5)",
+    "chemical_class": "HMG-CoA Reductase Inhibitor (Statin)",
+    "pharmacological_class": "Lipid-Lowering HMG-CoA Reductase Inhibitor",
+    "target_site": "Hepatic HMG-CoA reductase catalytic binding domain",
+    "metabolic_pathway": "Extensive hepatic CYP3A4 oxidation"
+  },
+  "clarithromycin": {
+    "chemical_name": "6-O-methylerythromycin (C38H69NO13)",
+    "chemical_class": "Macrolide Antibiotic & Potent Enzyme Inhibitor",
+    "pharmacological_class": "50S Ribosomal Inhibitor & CYP3A4 Mechanism-Based Inhibitor",
+    "target_site": "Bacterial 50S ribosomal subunit / Human CYP3A4 heme iron",
+    "metabolic_pathway": "Hepatic CYP3A4 self-metabolism and irreversible binding"
+  },
+  "sildenafil": {
+    "chemical_name": "5-[2-ethoxy-5-(4-methylpiperazin-1-yl)sulfonylphenyl]-1-methyl-3-propyl-4H-pyrazolo[4,3-d]pyrimidin-7-one (C22H30N6O4S)",
+    "chemical_class": "Pyrazolopyrimidinone PDE-5 Inhibitor",
+    "pharmacological_class": "cGMP-Specific Phosphodiesterase Type 5 (PDE-5) Inhibitor",
+    "target_site": "Corpus cavernosum & pulmonary vascular smooth muscle PDE-5",
+    "metabolic_pathway": "Hepatic CYP3A4 (79%) & CYP2C9 (20%)"
+  },
+  "nitroglycerin": {
+    "chemical_name": "1,3-dinitrooxypropan-2-yl nitrate (C3H5N3O9)",
+    "chemical_class": "Organic Nitrate Vasodilator",
+    "pharmacological_class": "Nitric Oxide (NO) Donor & Soluble Guanylate Cyclase Activator",
+    "target_site": "Vascular smooth muscle mitochondrial aldehyde dehydrogenase (ALDH2)",
+    "metabolic_pathway": "Rapid hepatic & vascular glutathione-S-transferase cleavage"
+  },
+  "lisinopril": {
+    "chemical_name": "(2S)-1-[(2S)-2-[[(1S)-1-carboxy-3-phenylpropyl]amino]propanoyl]pyrrole-2-carboxylic acid (C21H31N3O5)",
+    "chemical_class": "Dicarboxylate ACE Inhibitor",
+    "pharmacological_class": "Angiotensin-Converting Enzyme (ACE) Inhibitor",
+    "target_site": "Endothelial zinc metalloprotease ACE catalytic site",
+    "metabolic_pathway": "Renal filtration & tubular secretion (100% unchanged)"
+  },
+  "spironolactone": {
+    "chemical_name": "7alpha-acetylthio-3-oxo-17alpha-pregn-4-ene-21,17-carbolactone (C24H32O4S)",
+    "chemical_class": "Steroidal Aldosterone Receptor Antagonist",
+    "pharmacological_class": "Potassium-Sparing Diuretic",
+    "target_site": "Renal distal convoluted tubule mineralocorticoid receptors",
+    "metabolic_pathway": "Rapid hepatic conversion to active canrenone & 7alpha-thiomethylspironolactone"
+  },
+  "ciprofloxacin": {
+    "chemical_name": "1-cyclopropyl-6-fluoro-4-oxo-7-piperazin-1-ylquinoline-3-carboxylic acid (C17H18FN3O3)",
+    "chemical_class": "Second-Generation Fluoroquinolone Antibiotic",
+    "pharmacological_class": "Bacterial Topoisomerase II (DNA Gyrase) & IV Inhibitor",
+    "target_site": "Bacterial DNA-gyrase cleavage complex & Polyvalent metal ions",
+    "metabolic_pathway": "Renal clearance & GI chelation complexation"
+  },
+  "antacids": {
+    "chemical_name": "Aluminum hydroxide Al(OH)3 & Magnesium hydroxide Mg(OH)2",
+    "chemical_class": "Inorganic Polyvalent Neutralizers & Chelating Agents",
+    "pharmacological_class": "Gastric Acid Buffer & Polyvalent Cation Complexor",
+    "target_site": "Stomach lumen gastric HCl & luminal drug chelation binding",
+    "metabolic_pathway": "Non-systemic intestinal neutralization & excretion"
+  },
+  "metformin": {
+    "chemical_name": "1,1-dimethylbiguanide (C4H11N5)",
+    "chemical_class": "Biguanide Antidiabetic Agent",
+    "pharmacological_class": "AMPK Activator & Hepatic Gluconeogenesis Inhibitor",
+    "target_site": "Mitochondrial Respiratory Chain Complex I & OCT1/OCT2 transporters",
+    "metabolic_pathway": "Renal tubular OCT2 secretion (100% unchanged)"
+  },
+  "alcohol": {
+    "chemical_name": "Ethanol (C2H5OH)",
+    "chemical_class": "Aliphatic Hydroxyl CNS Modulator",
+    "pharmacological_class": "GABA-A Receptor Agonist & Hepatic ALDH/CYP2E1 Competitor",
+    "target_site": "Central nervous system GABA-A receptors & Hepatic gluconeogenic pathway",
+    "metabolic_pathway": "Hepatic Alcohol Dehydrogenase (ADH) -> Acetaldehyde -> ALDH"
+  }
+}
