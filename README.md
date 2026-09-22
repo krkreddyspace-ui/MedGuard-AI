@@ -35,25 +35,9 @@ MedGuard replaces cumbersome typing and cloud dependency with an intuitive, came
 
 ## 3. Architecture Overview
 
-```mermaid
-flowchart TD
-    A[Live Camera Feed / Webcam] --> B[WebRTC Local Loopback Stream\niceServers: []]
-    B --> C[Real-Time OpenCV Framing Heuristics\nGlare, Occupancy, Centering, Stability]
-    C --> D[Target Held Steady >= 0.8s\nAutomatic Capture Triggered]
-    D --> E[Review Screen: Exactly Two Buttons\n[✓ Use Photo] or [↻ Retake]]
-    E -- Retake --> B
-    E -- Use Photo --> F[In-Memory RAM Frame Buffer\nZero Disk Persistence]
-    F --> G[Computer Vision Preprocessing\nCLAHE & Sharpening]
-    G --> H[Local EasyOCR Engine\nStrictly Offline Weights]
-    H --> I[Packaging Noise Cleaner\nBatch, Expiry, Dosage Stripping]
-    I --> J[Medicine Normalizer\nBrand-to-Generic + RapidFuzz]
-    J --> K{Both Recognized?}
-    K -- No --> L[State C: Medicine Not Recognized\nNever Marked Safe]
-    K -- Yes --> M[Deterministic Interaction Engine\nSymmetric Pair Lookup]
-    M --> N{Interaction Found?}
-    N -- Yes --> O[State A: Potential Interaction Detected\nWhy It Matters + Pharmacist Advice]
-    N -- No --> P[State B: No Known Interaction\nExplicit Local Dataset Limitation Notice]
-```
+<p align="center">
+  <img src="assets/architecture_overview.png" alt="MedGuard Architecture Overview" width="100%" />
+</p>
 
 ---
 
@@ -137,6 +121,7 @@ medguard/
 │   └── run_tests.py            # Pytest test execution runner
 │
 └── assets/
+    ├── architecture_overview.png # Architecture pipeline diagram
     └── demo/
         ├── README.md           # Instructions for capturing sample packaging photos
         ├── sample_ecosprin.png # Sample blister pack for live upload test
